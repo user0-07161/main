@@ -12,8 +12,18 @@
     }
     button {
       background-color: #122F61;
+      border: 8px solid #122F61;
       font-color: #FFFFFF;
       font-family: 'Consolas', monospace;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    button:hover {
+      transition: .1s;
+      transform: translateY(-10px);
+      transform: perspective(200px) rotateX(40deg);
     }
   </style>
 </head>
